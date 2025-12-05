@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body {
+    height: 100%;
+    width: 100%;
+    background-color: #111;
+}
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    flex-direction: column;
+}
+
+#box{
+    width: 400px;
+    height: 400px;
+    background-color: rgb(255,255,255   );
+    border-radius: 10px;
+    border: 5px solid white;
+}
+
+button{
+    height: 50px;
+    width: 200px;
+    font-size: 30px;
+    font-weight: 700;
+    background-color: crimson;
+    border-radius: 50px;
+    border: none;
+    transition: 0.5s ease;
+}
+
+button:active{
+    scale: 0.9;
+    background-color: coral;
+}
