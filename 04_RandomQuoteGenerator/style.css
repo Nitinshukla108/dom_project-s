@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body {
+    height: 100%;
+    width: 100%;
+    color: white;
+    overflow: hidden;
+}
+
+main{
+    height: 100%;
+    width: 100%;
+    background-color: black;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+button{
+    padding: 30px;
+    font-size: 30px;
+    font-weight: 700;
+    width: 500px;
+    background-color: yellowgreen;
+    border-radius: 10px;
+    border: none;
+    transition: 0.5s ease;
+    position: relative;
+    z-index: 1;
+}
+
+button:active{
+    scale: 0.95;
+    background-color: yellow;
+}
