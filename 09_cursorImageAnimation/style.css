@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body {
+    height: 100%;
+    width: 100%;
+}
+
+body{
+    background-color: black;
+    cursor: none;  
+    /* isse apna cursor gayab ho jayega */
+}
+
+img{
+    height: 6%;
+    /* position: absolute;   isse kya hoga ki sirf ek page pr kaam krega fir scroll krenge page to nahi krega isiliye hum use krenge fixed-position */
+    position: fixed;
+    transform: translate(-50%,-50%);
+}
